@@ -62,7 +62,7 @@
     
     label.frame = CGRectMake(x, y, 20,200);
     label.tag = labelTag;
-    label.text = [NSString stringWithFormat:@"%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n", arc4random() % 2, arc4random() % 2, arc4random() % 2, arc4random() % 2, arc4random() % 2, arc4random() % 2, arc4random() % 2, arc4random() % 2];
+    label.text = [NSString stringWithFormat:@"%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n", arc4random() % 2, arc4random() % 2, arc4random() % 2, arc4random() % 2, arc4random() % 2, arc4random() % 2, arc4random() % 2, arc4random() % 2];
     label.numberOfLines = [label.text length];
     label.backgroundColor = [UIColor clearColor];
     label.textColor = [UIColor colorWithRed:55.0f/255.0f green:207.0f/255.0f blue:103.0f/255.0f alpha:1.0f];
